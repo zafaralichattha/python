@@ -3,12 +3,12 @@ git config --global user.email "mastermathstwelve@gmail.com"
  git add <filename.extension>
  git add .
  git init
- git commit -m "This is my first python program"  
+ git commit -m "This is my first python  program"
  git remote add origin https://github.com/zafaralichattha/test.git 
  git remote -v 
  git branch -M main 
  git push -u origin main  
   git restore <filename.extension>
 git rm --cached <filename.extension>
-git remote set-url origin https://github.com/zafaralichattha/python.git (to change the main folder)
  git push origin main   
+git remote set-url origin https://github.com/zafaralichattha/python.git (to change the main folder)
