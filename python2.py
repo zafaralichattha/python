@@ -1,2 +1,2 @@
 for i in range(10):
-    print("Zafar Ali Chatha")
+    print("Zafar Ali Chatha"+"from ali pur chatha")
