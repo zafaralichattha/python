@@ -12,3 +12,10 @@ git config --global user.email "mastermathstwelve@gmail.com"
 git rm --cached <filename.extension>
  git push origin main   
 git remote set-url origin https://github.com/zafaralichattha/python.git (to change the main folder)
+
+[git commit --amend --no-edit
+git push origin main  --Force(go with previous comments)]
+
+[Get-ChildItem -Force
+Remove-Item -Recurse -Force .git (for uninit files)]
+
