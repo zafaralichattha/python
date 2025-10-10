@@ -1,5 +1,11 @@
+<<<<<<< HEAD
  /*HEAD
 /* This is a comment in CSS this line is by ali chatha */
+=======
+/* styles.css - Dummy CSS File */
+
+/* Reset some default styles */
+>>>>>>> 46e96b4cfc5fc6c2314ac34f85416490bcc2ec21
 * {
   margin: 0;
   padding: 0;
@@ -75,5 +81,8 @@ button {
 button:hover {
   background-color: #0056b3;
   cursor: pointer;
+<<<<<<< HEAD
 >>>>>>> f495d74da69ea1ebf4148aecd480d31598e73809
+=======
+>>>>>>> 46e96b4cfc5fc6c2314ac34f85416490bcc2ec21
 }
