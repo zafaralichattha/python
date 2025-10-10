@@ -19,3 +19,5 @@ git push origin main  --Force(go with previous comments)]
 [Get-ChildItem -Force
 Remove-Item -Recurse -Force .git (for uninit files)]
 
+git branch branch-name
+git checkout branch (switching to other command)
