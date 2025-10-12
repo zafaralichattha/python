@@ -4,13 +4,22 @@ git config --global user.email "mastermathstwelve@gmail.com"
  git add .
  git init
  git commit -m "This is my first python  program"
- git remote add origin https://github.com/zafaralichattha/test.git 
- git remote -v 
- git branch -M main 
- git push -u origin main  
+ [
+git remote add origin https://github.com/zafaralichattha/test.git [to connect github repo with local repo]
+ git remote -v [to view remote origin]
+git remote remove origin[to remvoe remote origin]
+]
+ git branch -M main [rename the branch]
+ git push -u origin main  [push to github repo with saving the link for next time using -u]
+ git push origin main   [push without saving origin  for next work]
+
+[
+git pull origin main --allow-unrelated-histories [adding other files form remote main to local main]
+ A vim file will be opened use esc key then :wq to quit it 
+]
+
   git restore <filename.extension>
 git rm --cached <filename.extension>
- git push origin main   
 git remote set-url origin https://github.com/zafaralichattha/python.git (to change the main folder)
 
 [git commit --amend --no-edit
