@@ -13,6 +13,11 @@ git remote remove origin[to remvoe remote origin]
  git push -u origin main  [push to github repo with saving the link for next time using -u]
  git push origin main   [push without saving origin  for next work]
 
+[
+git pull origin main --allow-unrelated-histories [adding other files form remote main to local main]
+ A vim file will be opened use esc key then :wq to quit it 
+]
+
   git restore <filename.extension>
 git rm --cached <filename.extension>
 git remote set-url origin https://github.com/zafaralichattha/python.git (to change the main folder)
