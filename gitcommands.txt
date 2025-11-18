@@ -30,3 +30,7 @@ Remove-Item -Recurse -Force .git (for uninit files)]
 
 git branch branch-name
 git checkout branch (switching to other command)
+
+
+ git config --show-origin user.name
+git config --show-origin user.email
