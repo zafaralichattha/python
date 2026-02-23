@@ -1,0 +1,11 @@
+List can be change but tuple cannot be changed.
+
+name=[[10,11,32,43,45],['Zain','Zaid','Taha','Abdul Rehman','Maryam'],[33,22,11]]
+print(name[2][0])
+
+numbers.append(50)     # Add at end
+numbers.insert(1, 15)  # Insert at position
+numbers.remove(30)     # Remove value
+numbers.pop()          # Remove last
+numbers.sort()         # Sort list
+
