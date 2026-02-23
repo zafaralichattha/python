@@ -1,7 +1,19 @@
 
 
-student={
+/*student={
     101: ["Zain","classno 45","BSSE"],
     107: "Xli"
 }
 student[101][0]
+*/
+
+student = {
+    "name": "Zain",
+    "age": 20,
+    "marks": 85
+}
+
+print(student)
+
+for key, value in student.items():
+    print(key, ":", value)
