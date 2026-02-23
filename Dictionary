@@ -1,0 +1,7 @@
+
+
+student={
+    101: ["Zain","classno 45","BSSE"],
+    107: "Xli"
+}
+student[101][0]
